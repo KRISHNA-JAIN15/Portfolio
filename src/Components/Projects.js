@@ -8,6 +8,8 @@ import ClubWebsite from '../images/ClubWebsite.png'
 import LetsMeet from '../images/LetsMeet.png'
 import DocSync from '../images/DocSync.png'
 import DevSneha from '../images/DevSneha.png'
+import AgriIntel from '../images/AgriIntel.png'
+import ChatterBox from '../images/ChatterBox.png'
 
 const Projects = () => {
   return (
@@ -22,6 +24,8 @@ const Projects = () => {
         <ProjectBox projectPhoto={LetsMeet} projectName="LetsChat" />
         <ProjectBox projectPhoto={DocSync} projectName="DocSync" />
         <ProjectBox projectPhoto={DevSneha} projectName="DevSneha" />
+        <ProjectBox projectPhoto={AgriIntel} projectName="AgriIntel" />
+        <ProjectBox projectPhoto={ChatterBox} projectName="ChatterBox" />
       </div>
 
       {/* Coming Soon Section */}
