@@ -81,7 +81,6 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     ChatterBoxGithub: "https://github.com/KRISHNA-JAIN15/ChatterBox",
     ChatterBoxLive: "https://chatterbox.krishnajain.tech/",
   };
-};
 
 
   const techStacks = {
