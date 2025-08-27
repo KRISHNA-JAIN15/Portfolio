@@ -76,7 +76,13 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     AgriIntelDesc: "AI-Powered Farming Assistant designed to empower farmers with AI-driven insights, real-time data, and smart recommendations for better decision-making. Features weather forecasting with ARIMA & Prophet models, crop disease detection using MobileNetV2, soil analysis with Random Forest, dynamic land data updates, and a smart geofenced dashboard for farm monitoring.",
     AgriIntelGithub: "https://github.com/KRISHNA-JAIN15/AgriIntel",
     AgriIntelLive: "", 
+
+    ChatterBoxDesc: "A real-time 1v1 video chat application built with the MERN stack, Socket.IO, and WebRTC. Supports live peer-to-peer video calls with a smooth and responsive UI.",
+    ChatterBoxGithub: "https://github.com/KRISHNA-JAIN15/ChatterBox",
+    ChatterBoxLive: "https://chatterbox.krishnajain.tech/",
   };
+};
+
 
   const techStacks = {
     MintBolt: ["Kotlin", "Android", "API Integration", "Chat UI"],
@@ -105,6 +111,10 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
       "Python", "ARIMA", "Prophet", "Random Forest", "MobileNetV2", 
       "Google Maps API", "Dashboards", "Sensor Integration"
     ],
+    ChatterBox: [
+        "MongoDB", "Express.js", "React", "Node.js", 
+        "Socket.IO", "WebRTC", "TailwindCSS"
+  ],
 };
 
 
