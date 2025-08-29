@@ -1,15 +1,16 @@
 import React from 'react';
 import ProjectBox from './ProjectBox';
 import BombLabImage from '../images/BombLabImage.png';
-import PokemonHPPredictorImage from '../images/PokemonImage.jpeg'
-import MintBoltImage from '../images/MintboltImage.jpg'
-import JarvisImage from '../images/JarvisImage.jpg'
-import ClubWebsite from '../images/ClubWebsite.png'
-import LetsMeet from '../images/LetsMeet.png'
-import DocSync from '../images/DocSync.png'
-import DevSneha from '../images/DevSneha.png'
-import AgriIntel from '../images/AgriIntel.png'
-import ChatterBox from '../images/ChatterBox.png'
+import PokemonHPPredictorImage from '../images/PokemonImage.jpeg';
+import MintBoltImage from '../images/MintboltImage.jpg';
+import JarvisImage from '../images/JarvisImage.jpg';
+import ClubWebsite from '../images/ClubWebsite.png';
+import LetsMeet from '../images/LetsMeet.png';
+import DocSync from '../images/DocSync.png';
+import DevSneha from '../images/DevSneha.png';
+import AgriIntel from '../images/AgriIntel.png';
+import ChatterBox from '../images/ChatterBox.png';
+import PollApp from '../images/PollApp.png'; 
 
 const Projects = () => {
   return (
@@ -26,6 +27,7 @@ const Projects = () => {
         <ProjectBox projectPhoto={DevSneha} projectName="DevSneha" />
         <ProjectBox projectPhoto={AgriIntel} projectName="AgriIntel" />
         <ProjectBox projectPhoto={ChatterBox} projectName="ChatterBox" />
+        <ProjectBox projectPhoto={PollApp} projectName="PollApp" />
       </div>
 
       {/* Coming Soon Section */}
