@@ -80,8 +80,11 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     ChatterBoxDesc: "A real-time 1v1 video chat application built with the MERN stack, Socket.IO, and WebRTC. Supports live peer-to-peer video calls with a smooth and responsive UI.",
     ChatterBoxGithub: "https://github.com/KRISHNA-JAIN15/ChatterBox",
     ChatterBoxLive: "https://chatterbox.krishnajain.tech/",
-  };
 
+    PollAppDesc: "A secure polling application featuring RESTful API and GraphQL support. Users can create polls with multiple options, vote (one per poll), and view real-time results. Includes JWT authentication, email verification, and user statistics.",
+    PollAppGithub: "https://github.com/KRISHNA-JAIN15/PollApp",
+    PollAppLive: "https://pollapp.krishnajain.tech/",
+  };
 
   const techStacks = {
     MintBolt: ["Kotlin", "Android", "API Integration", "Chat UI"],
@@ -110,11 +113,20 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
       "Python", "ARIMA", "Prophet", "Random Forest", "MobileNetV2", 
       "Google Maps API", "Dashboards", "Sensor Integration"
     ],
+
     ChatterBox: [
-        "MongoDB", "Express.js", "React", "Node.js", 
-        "Socket.IO", "WebRTC", "TailwindCSS"
-  ],
+      "MongoDB", "Express.js", "React", "Node.js", 
+      "Socket.IO", "WebRTC", "TailwindCSS"
+    ],
+
+    PollApp: [
+      "Node.js", "Express.js", "Prisma ORM", "PostgreSQL",
+      "JWT", "bcryptjs", "Apollo Server", "GraphQL",
+      "Nodemailer", "REST API", "Email Verification"
+    ],
+  };
 };
+
 
 
   const githubLink = desc[projectName + 'Github'];
