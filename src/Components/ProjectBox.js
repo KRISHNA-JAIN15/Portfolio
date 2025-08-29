@@ -124,7 +124,6 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
       "JWT", "bcryptjs", "Apollo Server", "GraphQL",
       "Nodemailer", "REST API", "Email Verification"
     ],
-  };
 };
 
 
