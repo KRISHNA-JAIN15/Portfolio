@@ -611,3 +611,375 @@ footer h4 {
     padding: 40px 20px 20px 20px;
   }
 }
+
+/* EDUCATION PAGE */
+.EducationPage {
+  min-height: 100vh;
+  margin-top: 100px;
+  padding: 50px 25px;
+}
+
+.EducationText {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+
+.EducationTextHeading {
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 40px;
+  background: linear-gradient(135deg, #9067c6, #b087d1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.EducationContainer {
+  margin: 40px 0;
+}
+
+.EducationItem {
+  background: linear-gradient(135deg, #1a2332, #0f1419);
+  border-radius: 15px;
+  padding: 30px;
+  margin: 25px 0;
+  box-shadow: 0 8px 32px rgba(144, 103, 198, 0.1);
+  border: 1px solid rgba(144, 103, 198, 0.2);
+  transition: all 0.3s ease;
+}
+
+.EducationItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(144, 103, 198, 0.2);
+}
+
+.EducationHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.EducationHeader h3 {
+  color: #9067c6;
+  font-size: 22px;
+  margin: 0;
+}
+
+.EducationYear {
+  background: rgba(144, 103, 198, 0.2);
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #b087d1;
+}
+
+.EducationItem h4 {
+  color: #e7e7e7;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.EducationDetails ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 15px;
+}
+
+.EducationDetails li {
+  padding: 5px 0;
+  padding-left: 20px;
+  position: relative;
+}
+
+.EducationDetails li::before {
+  content: "▸";
+  color: #9067c6;
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+.CertificationsSection,
+.ExperienceSection,
+.VolunteerSection {
+  margin: 60px 0;
+}
+
+.CertificationsHeading,
+.ExperienceHeading,
+.VolunteerHeading {
+  font-size: 28px;
+  color: #9067c6;
+  text-align: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.CertificationsHeading::after,
+.ExperienceHeading::after,
+.VolunteerHeading::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(135deg, #9067c6, #b087d1);
+  margin: 10px auto;
+  border-radius: 2px;
+}
+
+.CertificationsList,
+.ExperienceList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.CertificationItem,
+.ExperienceItem,
+.VolunteerItem {
+  background: linear-gradient(135deg, #0f1721, #1a2332);
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid rgba(144, 103, 198, 0.1);
+  transition: all 0.3s ease;
+}
+
+.CertificationItem:hover,
+.ExperienceItem:hover,
+.VolunteerItem:hover {
+  border-color: rgba(144, 103, 198, 0.3);
+  box-shadow: 0 5px 20px rgba(144, 103, 198, 0.1);
+}
+
+.CertificationItem h4,
+.ExperienceItem h4,
+.VolunteerItem h4 {
+  color: #b087d1;
+  margin-bottom: 8px;
+}
+
+.ExperienceHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.ExperienceYear {
+  background: rgba(144, 103, 198, 0.15);
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #9067c6;
+}
+
+.LearningSection {
+  margin: 60px 0;
+  text-align: center;
+}
+
+.LearningHeading {
+  font-size: 28px;
+  color: #9067c6;
+  margin-bottom: 20px;
+}
+
+.LearningList {
+  list-style: none;
+  padding: 0;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.LearningList li {
+  padding: 10px 20px;
+  margin: 10px 0;
+  background: rgba(144, 103, 198, 0.1);
+  border-radius: 8px;
+  border-left: 4px solid #9067c6;
+}
+
+/* CONTACT PAGE */
+.ContactPage {
+  min-height: 100vh;
+  margin-top: -100px;
+  padding: 50px 25px;
+}
+
+.ContactText {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.ContactTextHeading {
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 40px;
+  background: linear-gradient(135deg, #9067c6, #b087d1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.ContactDetails {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin: 50px 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ContactItem {
+  background: linear-gradient(135deg, #1a2332, #0f1419);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(144, 103, 198, 0.1);
+  border: 1px solid rgba(144, 103, 198, 0.2);
+  transition: all 0.3s ease;
+}
+
+.ContactItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(144, 103, 198, 0.2);
+}
+
+.ContactItem h3 {
+  color: #9067c6;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.ContactItem a {
+  color: #e7e7e7;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.ContactItem a:hover {
+  color: #b087d1;
+}
+
+.SocialLinks {
+  margin: 60px 0;
+}
+
+.SocialLinks h3 {
+  color: #9067c6;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.SocialButtons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.SocialButton {
+  background: linear-gradient(135deg, #9067c6, #b087d1);
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(144, 103, 198, 0.3);
+}
+
+.SocialButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(144, 103, 198, 0.4);
+  background: linear-gradient(135deg, #b087d1, #c59bd8);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .EducationTextHeading,
+  .ContactTextHeading {
+    font-size: 32px;
+    padding-bottom: 30px;
+  }
+
+  .EducationText,
+  .ContactText {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 15px;
+  }
+
+  .EducationHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .CertificationsList,
+  .ExperienceList {
+    grid-template-columns: 1fr;
+  }
+
+  .ContactDetails {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .SocialButtons {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .SocialButton {
+    width: 200px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .EducationPage,
+  .ContactPage {
+    padding: 30px 15px;
+    margin-top: 80px;
+  }
+
+  .EducationTextHeading,
+  .ContactTextHeading {
+    font-size: 28px;
+  }
+
+  .EducationItem,
+  .ContactItem,
+  .CertificationItem,
+  .ExperienceItem {
+    padding: 20px;
+  }
+
+  .CertificationsHeading,
+  .ExperienceHeading,
+  .VolunteerHeading {
+    font-size: 24px;
+  }
+}
