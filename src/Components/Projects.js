@@ -11,6 +11,7 @@ import DevSneha from '../images/DevSneha.png';
 import AgriIntel from '../images/AgriIntel.png';
 import ChatterBox from '../images/ChatterBox.png';
 import PollApp from '../images/PollApp.png'; 
+import SpotLight from '../images/SpotLight.png';
 
 const Projects = () => {
   return (
@@ -28,6 +29,7 @@ const Projects = () => {
         <ProjectBox projectPhoto={AgriIntel} projectName="AgriIntel" />
         <ProjectBox projectPhoto={ChatterBox} projectName="ChatterBox" />
         <ProjectBox projectPhoto={PollApp} projectName="PollApp" />
+        <ProjectBox projectPhoto={SpotLight} projectName="SpotLight" />
       </div>
 
       {/* Coming Soon Section */}
