@@ -84,6 +84,10 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     PollAppDesc: "A secure polling application featuring RESTful API and GraphQL support. Users can create polls with multiple options, vote (one per poll), and view real-time results. Includes JWT authentication, email verification, and user statistics.",
     PollAppGithub: "https://github.com/KRISHNA-JAIN15/PollApp",
     PollAppLive: "https://pollapp.krishnajain.tech/",
+
+    SpotLightDesc: "A modern, full-stack event management platform that connects event organizers with attendees. Features real-time payments, venue management, and comprehensive financial tracking.",
+    SpotLightGithub: "https://github.com/KRISHNA-JAIN15/SpotLight",
+    SpotLightLive: "https://spotlight.krishnajain.tech/",
   };
 
   const techStacks = {
@@ -123,6 +127,9 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
       "Node.js", "Express.js", "Prisma ORM", "PostgreSQL",
       "JWT", "bcryptjs", "Apollo Server", "GraphQL",
       "Nodemailer", "REST API", "Email Verification"
+    ],
+    SpotLight: [
+      "Razorpay", "Redis", "PDFKit", "QRCode", "Cloudinary", "MongoDB"
     ],
 };
 
