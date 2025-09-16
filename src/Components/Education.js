@@ -110,13 +110,24 @@ const Education = () => {
 
               <div className="ExperienceItem">
                 <div className="ExperienceHeader">
-                  <h4>🧠 Core Member - Neuronauts Domain</h4>
-                  <span className="ExperienceYear">August 2024 - Present</span>
+                  <h4>🧠 Co-Lead & Core Member - Neuronauts Domain</h4>
+                  <span className="ExperienceYear">August 2024 – Present</span>
                 </div>
                 <p>
                   <strong>Epoch (Machine Learning Club)</strong>
                 </p>
+                <ul className="list-disc pl-6 mt-2 text-justify">
+                  <li>
+                    <strong>Co-Lead (Aug 2025 – Present):</strong> Leading initiatives,
+                    mentoring members, and driving AI/ML projects.
+                  </li>
+                  <li>
+                    <strong>Core Member (Aug 2024 – Aug 2025):</strong> Assisted in organizing
+                    events and contributed to ML project development.
+                  </li>
+                </ul>
               </div>
+
             </div>
           </div>
 
