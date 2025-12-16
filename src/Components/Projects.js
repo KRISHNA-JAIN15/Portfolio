@@ -1,23 +1,28 @@
-import React from 'react';
-import ProjectBox from './ProjectBox';
-import BombLabImage from '../images/BombLabImage.png';
-import PokemonHPPredictorImage from '../images/PokemonImage.jpeg';
-import MintBoltImage from '../images/MintboltImage.jpg';
-import JarvisImage from '../images/JarvisImage.jpg';
-import ClubWebsite from '../images/ClubWebsite.png';
-import LetsMeet from '../images/LetsMeet.png';
-import DocSync from '../images/DocSync.png';
-import DevSneha from '../images/DevSneha.png';
-import AgriIntel from '../images/AgriIntel.png';
-import ChatterBox from '../images/ChatterBox.png';
-import PollApp from '../images/PollApp.png'; 
-import SpotLight from '../images/SpotLight.png';
+import React from "react";
+import ProjectBox from "./ProjectBox";
+import BombLabImage from "../images/BombLabImage.png";
+import PokemonHPPredictorImage from "../images/PokemonImage.jpeg";
+import MintBoltImage from "../images/MintboltImage.jpg";
+import JarvisImage from "../images/JarvisImage.jpg";
+import ClubWebsite from "../images/ClubWebsite.png";
+import LetsMeet from "../images/LetsMeet.png";
+import DocSync from "../images/DocSync.png";
+import DevSneha from "../images/DevSneha.png";
+import AgriIntel from "../images/AgriIntel.png";
+import ChatterBox from "../images/ChatterBox.png";
+import PollApp from "../images/PollApp.png";
+import SpotLight from "../images/SpotLight.png";
+import Opulence from "../images/Opulence.png";
+import NewsNet from "../images/NewsNet.png";
+import NextBlog from "../images/NextBlog.png";
 
 const Projects = () => {
   return (
     <div>
-      <h1 className='projectHeading'>My <b>Projects</b></h1>
-      <div className='project'>
+      <h1 className="projectHeading">
+        My <b>Projects</b>
+      </h1>
+      <div className="project">
         {/* <ProjectBox projectPhoto={PokemonHPPredictorImage} projectName="PokemonHPPredictor" /> */}
         <ProjectBox projectPhoto={BombLabImage} projectName="BombLab" />
         {/* <ProjectBox projectPhoto={JarvisImage} projectName="Larvis" /> */}
@@ -30,6 +35,9 @@ const Projects = () => {
         <ProjectBox projectPhoto={ChatterBox} projectName="ChatterBox" />
         <ProjectBox projectPhoto={PollApp} projectName="PollApp" />
         <ProjectBox projectPhoto={SpotLight} projectName="SpotLight" />
+        <ProjectBox projectPhoto={Opulence} projectName="Opulence" />
+        <ProjectBox projectPhoto={NewsNet} projectName="NewsNet" />
+        <ProjectBox projectPhoto={NextBlog} projectName="NextBlog" />
       </div>
 
       {/* Coming Soon Section */}
@@ -80,7 +88,8 @@ const Projects = () => {
         }
 
         @keyframes fade {
-          0%, 100% {
+          0%,
+          100% {
             opacity: 0.3;
           }
           50% {
@@ -101,14 +110,14 @@ const Projects = () => {
             padding: 40px 15px;
             margin-top: 60px;
           }
-          
+
           .coming-soon-text {
             font-size: 1.5rem;
           }
         }
       `}</style>
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

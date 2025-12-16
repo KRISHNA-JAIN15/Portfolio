@@ -2,7 +2,6 @@
 // import {FaGithub} from "react-icons/fa";
 // import {CgFileDocument} from "react-icons/cg";
 
-
 // const  ProjectBox = ({projectPhoto, projectName}) => {
 //   const desc = {
 //     MintBoltDesc : " Kotlin application features a chatbot designed to assist users with various financial and document-related tasks. The chatbot leverages local APIs for functionality related to transaction management, document processing, payment and invoicing, budgeting and finance management, and general queries.",
@@ -13,7 +12,7 @@
 
 //     BombLabDesc:"Python-based Bomb Defusal Game challenges players to defuse a simulated bomb by completing various phases. Each phase presents a unique task, including retrieving passwords, solving riddles, decoding Morse code, and performing programming challenges in C and Assembly. Successfully completing all phases defuses the bomb, while mistakes or incomplete tasks lead to a simulated explosion.",
 //     BombLabGithub:"https://github.com/KRISHNA-JAIN15/BOMB_LAB" ,
-    
+
 //     PokemonHPPredictorDesc:"ANN model to Predict the HP of Pokemon based on various features. Tech: Python, Web Scraping , Tensorflow and Keras.",
 //     PokemonHPPredictorGithub:"https://github.com/KRISHNA-JAIN15/Pokemon-HP-Predictor",
 //   }
@@ -22,10 +21,10 @@
 //   if(desc[projectName + 'Github']===""){
 //     show="none";
 //   }
-    
+
 //   return (
-//     <div className='projectBox'> 
-//         <img className='projectPhoto' src={projectPhoto} alt="Project display" /> 
+//     <div className='projectBox'>
+//         <img className='projectPhoto' src={projectPhoto} alt="Project display" />
 //         <div>
 //             <br />
 //             <h3>{projectName}</h3>
@@ -44,50 +43,75 @@
 
 // export default  ProjectBox
 
-import React from 'react';
+import React from "react";
 import { FaGithub, FaExternalLinkAlt, FaCode } from "react-icons/fa";
 
 const ProjectBox = ({ projectPhoto, projectName }) => {
   const desc = {
-    MintBoltDesc: "Kotlin application features a chatbot designed to assist users with various financial and document-related tasks. The chatbot leverages local APIs for functionality related to transaction management, document processing, payment and invoicing, budgeting and finance management, and general queries.",
+    MintBoltDesc:
+      "Kotlin application features a chatbot designed to assist users with various financial and document-related tasks. The chatbot leverages local APIs for functionality related to transaction management, document processing, payment and invoicing, budgeting and finance management, and general queries.",
     MintBoltGithub: "https://github.com/KRISHNA-JAIN15/MintBolt",
     MintBoltLive: "",
 
-    BombLabDesc: "Python-based Bomb Defusal Game challenges players to defuse a simulated bomb by completing various phases. Each phase presents a unique task, including retrieving passwords, solving riddles, decoding Morse code, and performing programming challenges in C and Assembly. Successfully completing all phases defuses the bomb, while mistakes or incomplete tasks lead to a simulated explosion.",
+    BombLabDesc:
+      "Python-based Bomb Defusal Game challenges players to defuse a simulated bomb by completing various phases. Each phase presents a unique task, including retrieving passwords, solving riddles, decoding Morse code, and performing programming challenges in C and Assembly. Successfully completing all phases defuses the bomb, while mistakes or incomplete tasks lead to a simulated explosion.",
     BombLabGithub: "https://github.com/KRISHNA-JAIN15/BOMB_LAB",
     BombLabLive: "",
-    
-    LetsChatDesc: "A modern real-time chat application built with React, Node.js, Socket.IO, and MongoDB. Features user authentication, user profiles with avatars, real-time messaging, online status indicators, and a responsive dark-themed UI.",
+
+    LetsChatDesc:
+      "A modern real-time chat application built with React, Node.js, Socket.IO, and MongoDB. Features user authentication, user profiles with avatars, real-time messaging, online status indicators, and a responsive dark-themed UI.",
     LetsChatGithub: "https://github.com/KRISHNA-JAIN15/LetsChat",
     LetsChatLive: "https://letsmeet.krishnajain.tech/",
 
-    ClubWebsiteDesc: "A club website built with Next.js App Router, MongoDB, and NextAuth. Includes authentication, blog system, project showcase, event management with RSVP + ticket generation, gallery, podcast management, and an admin panel with RBAC.",
+    ClubWebsiteDesc:
+      "A club website built with Next.js App Router, MongoDB, and NextAuth. Includes authentication, blog system, project showcase, event management with RSVP + ticket generation, gallery, podcast management, and an admin panel with RBAC.",
     ClubWebsiteGithub: "https://github.com/KRISHNA-JAIN15/ClubWebsite",
     ClubWebsiteLive: "https://clubwebsite.krishnajain.tech/",
 
-    DocSyncDesc: "Real-time collaborative document editing app built with Next.js. Features Google Authentication, live WebSocket-based syncing, and a fast collaborative editing interface.",
+    DocSyncDesc:
+      "Real-time collaborative document editing app built with Next.js. Features Google Authentication, live WebSocket-based syncing, and a fast collaborative editing interface.",
     DocSyncGithub: "https://github.com/KRISHNA-JAIN15/DocSync",
     DocSyncLive: "https://docsync.krishnajain.tech/",
 
-    DevSnehaDesc: "A catalog web application for showcasing God Vastra and religious accessories. Supports full CRUD operations, image storage with Cloudinary, and a responsive React + Node.js interface.",
+    DevSnehaDesc:
+      "A catalog web application for showcasing God Vastra and religious accessories. Supports full CRUD operations, image storage with Cloudinary, and a responsive React + Node.js interface.",
     DevSnehaGithub: "https://github.com/KRISHNA-JAIN15/DevSneha",
     DevSnehaLive: "https://devsneha.krishnajain.tech/",
 
-    AgriIntelDesc: "AI-Powered Farming Assistant designed to empower farmers with AI-driven insights, real-time data, and smart recommendations for better decision-making. Features weather forecasting with ARIMA & Prophet models, crop disease detection using MobileNetV2, soil analysis with Random Forest, dynamic land data updates, and a smart geofenced dashboard for farm monitoring.",
+    AgriIntelDesc:
+      "AI-Powered Farming Assistant designed to empower farmers with AI-driven insights, real-time data, and smart recommendations for better decision-making. Features weather forecasting with ARIMA & Prophet models, crop disease detection using MobileNetV2, soil analysis with Random Forest, dynamic land data updates, and a smart geofenced dashboard for farm monitoring.",
     AgriIntelGithub: "https://github.com/KRISHNA-JAIN15/AgriIntel",
-    AgriIntelLive: "", 
+    AgriIntelLive: "",
 
-    ChatterBoxDesc: "A real-time 1v1 video chat application built with the MERN stack, Socket.IO, and WebRTC. Supports live peer-to-peer video calls with a smooth and responsive UI.",
+    ChatterBoxDesc:
+      "A real-time 1v1 video chat application built with the MERN stack, Socket.IO, and WebRTC. Supports live peer-to-peer video calls with a smooth and responsive UI.",
     ChatterBoxGithub: "https://github.com/KRISHNA-JAIN15/ChatterBox",
     ChatterBoxLive: "https://chatterbox.krishnajain.tech/",
 
-    PollAppDesc: "A secure polling application featuring RESTful API and GraphQL support. Users can create polls with multiple options, vote (one per poll), and view real-time results. Includes JWT authentication, email verification, and user statistics.",
+    PollAppDesc:
+      "A secure polling application featuring RESTful API and GraphQL support. Users can create polls with multiple options, vote (one per poll), and view real-time results. Includes JWT authentication, email verification, and user statistics.",
     PollAppGithub: "https://github.com/KRISHNA-JAIN15/PollApp",
     PollAppLive: "https://pollapp.krishnajain.tech/",
 
-    SpotLightDesc: "A modern, full-stack event management platform that connects event organizers with attendees. Features real-time payments, venue management, and comprehensive financial tracking.",
+    SpotLightDesc:
+      "A modern, full-stack event management platform that connects event organizers with attendees. Features real-time payments, venue management, and comprehensive financial tracking.",
     SpotLightGithub: "https://github.com/KRISHNA-JAIN15/SpotLight",
     SpotLightLive: "https://spotlight.krishnajain.tech/",
+
+    OpulenceDesc:
+      "A full-stack luxury e-commerce platform with modern design and comprehensive features. Includes shopping cart, Razorpay payment integration, digital wallet, order tracking, wishlist, user authentication with email verification, admin dashboard, product management, coupon system, and transaction analytics.",
+    OpulenceGithub: "https://github.com/KRISHNA-JAIN15/Opulence",
+    OpulenceLive: "https://opulence.krishnajain.tech/",
+
+    NewsNetDesc:
+      "A modern, real-time news aggregation and notification platform powered by Apache Kafka on AWS MSK. Features personalized news feeds, instant email notifications, interest-based matching, bookmark & like system, category filtering, search functionality, and automatic article archiving.",
+    NewsNetGithub: "https://github.com/KRISHNA-JAIN15/NewsKafka",
+    NewsNetLive: "https://news-kafka.vercel.app/",
+
+    NextBlogDesc:
+      "A modern blogging platform built with Next.js, Prisma, and Tailwind CSS. Features user authentication, blog creation and management, responsive design, and a clean, intuitive interface for creating, sharing, and discovering thought-provoking content.",
+    NextBlogGithub: "https://github.com/KRISHNA-JAIN15/NextBlog",
+    NextBlogLive: "https://next-blog-pied-tau.vercel.app/",
   };
 
   const techStacks = {
@@ -95,65 +119,159 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     BombLab: ["Python", "C", "Assembly", "Game Logic"],
 
     LetsChat: [
-      "React", "Zustand", "Socket.IO Client", "TailwindCSS", "DaisyUI", 
-      "React Icons", "React Hot Toast", "Node.js", "Express.js", 
-      "MongoDB", "Mongoose", "Socket.IO", "JWT", "bcryptjs", "Cookie Parser"
+      "React",
+      "Zustand",
+      "Socket.IO Client",
+      "TailwindCSS",
+      "DaisyUI",
+      "React Icons",
+      "React Hot Toast",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "Socket.IO",
+      "JWT",
+      "bcryptjs",
+      "Cookie Parser",
     ],
 
     ClubWebsite: [
-      "Next.js 15", "MongoDB", "Mongoose", "NextAuth (Google OAuth)", 
-      "Zod", "Cloudinary", "PDFKit", "QRCode"
+      "Next.js 15",
+      "MongoDB",
+      "Mongoose",
+      "NextAuth (Google OAuth)",
+      "Zod",
+      "Cloudinary",
+      "PDFKit",
+      "QRCode",
     ],
 
     DocSync: [
-      "Next.js", "WebSockets", "Google OAuth 2.0", "Collaborative Editing"
+      "Next.js",
+      "WebSockets",
+      "Google OAuth 2.0",
+      "Collaborative Editing",
     ],
 
     DevSneha: [
-      "React", "Node.js", "Express", "MongoDB", "Cloudinary", "REST APIs"
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Cloudinary",
+      "REST APIs",
     ],
 
     AgriIntel: [
-      "Python", "ARIMA", "Prophet", "Random Forest", "MobileNetV2", 
-      "Google Maps API", "Dashboards", "Sensor Integration"
+      "Python",
+      "ARIMA",
+      "Prophet",
+      "Random Forest",
+      "MobileNetV2",
+      "Google Maps API",
+      "Dashboards",
+      "Sensor Integration",
     ],
 
     ChatterBox: [
-      "MongoDB", "Express.js", "React", "Node.js", 
-      "Socket.IO", "WebRTC", "TailwindCSS"
+      "MongoDB",
+      "Express.js",
+      "React",
+      "Node.js",
+      "Socket.IO",
+      "WebRTC",
+      "TailwindCSS",
     ],
 
     PollApp: [
-      "Node.js", "Express.js", "Prisma ORM", "PostgreSQL",
-      "JWT", "bcryptjs", "Apollo Server", "GraphQL",
-      "Nodemailer", "REST API", "Email Verification"
+      "Node.js",
+      "Express.js",
+      "Prisma ORM",
+      "PostgreSQL",
+      "JWT",
+      "bcryptjs",
+      "Apollo Server",
+      "GraphQL",
+      "Nodemailer",
+      "REST API",
+      "Email Verification",
     ],
     SpotLight: [
-      "Razorpay", "Redis", "PDFKit", "QRCode", "Cloudinary", "MongoDB"
+      "Razorpay",
+      "Redis",
+      "PDFKit",
+      "QRCode",
+      "Cloudinary",
+      "MongoDB",
     ],
-};
 
+    Opulence: [
+      "Node.js",
+      "React",
+      "MongoDB",
+      "TailwindCSS",
+      "Razorpay",
+      "Cloudinary",
+      "JWT",
+      "Nodemailer",
+      "Express.js",
+      "Redux Toolkit",
+      "Mongoose",
+      "bcryptjs",
+      "Multer",
+      "React Router",
+      "Vite",
+    ],
 
+    NewsNet: [
+      "Node.js",
+      "React",
+      "MongoDB",
+      "Apache Kafka",
+      "AWS MSK",
+      "Express.js",
+      "Kafka Consumer",
+      "Kafka Producer",
+      "Real-time Streaming",
+      "Nodemailer",
+      "Cloudinary",
+      "JWT",
+      "Three.js",
+    ],
 
-  const githubLink = desc[projectName + 'Github'];
-  const liveLink = desc[projectName + 'Live'];
-  const projectDesc = desc[projectName + 'Desc'];
+    NextBlog: [
+      "Next.js",
+      "Prisma",
+      "TailwindCSS",
+      "PostgreSQL",
+      "NextAuth",
+      "React",
+      "TypeScript",
+      "Server Components",
+      "App Router",
+    ],
+  };
+
+  const githubLink = desc[projectName + "Github"];
+  const liveLink = desc[projectName + "Live"];
+  const projectDesc = desc[projectName + "Desc"];
   const technologies = techStacks[projectName] || [];
 
   return (
     <div className="enhanced-project-card">
       <div className="project-image-container">
-        <img 
-          className="project-image" 
-          src={projectPhoto} 
+        <img
+          className="project-image"
+          src={projectPhoto}
           alt={`${projectName} preview`}
         />
         <div className="project-overlay">
           <div className="project-links">
             {githubLink && (
-              <a 
-                href={githubLink} 
-                target="_blank" 
+              <a
+                href={githubLink}
+                target="_blank"
                 rel="noopener noreferrer"
                 className="project-link github-link"
                 aria-label={`View ${projectName} on GitHub`}
@@ -162,9 +280,9 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
               </a>
             )}
             {liveLink && (
-              <a 
-                href={liveLink} 
-                target="_blank" 
+              <a
+                href={liveLink}
+                target="_blank"
                 rel="noopener noreferrer"
                 className="project-link live-link"
                 aria-label={`View ${projectName} live demo`}
@@ -175,27 +293,31 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
           </div>
         </div>
       </div>
-      
+
       <div className="project-content">
         <div className="project-header">
           <h3 className="project-title">{projectName}</h3>
           <div className="project-tech-stack">
             {technologies.slice(0, 3).map((tech, index) => (
-              <span key={index} className="tech-badge">{tech}</span>
+              <span key={index} className="tech-badge">
+                {tech}
+              </span>
             ))}
             {technologies.length > 3 && (
-              <span className="tech-badge more-tech">+{technologies.length - 3}</span>
+              <span className="tech-badge more-tech">
+                +{technologies.length - 3}
+              </span>
             )}
           </div>
         </div>
-        
+
         <p className="project-description">{projectDesc}</p>
-        
+
         <div className="project-actions">
           {githubLink && (
-            <a 
-              href={githubLink} 
-              target="_blank" 
+            <a
+              href={githubLink}
+              target="_blank"
               rel="noopener noreferrer"
               className="action-btn github-btn"
             >
@@ -204,9 +326,9 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
             </a>
           )}
           {liveLink && (
-            <a 
-              href={liveLink} 
-              target="_blank" 
+            <a
+              href={liveLink}
+              target="_blank"
               rel="noopener noreferrer"
               className="action-btn live-btn"
             >
@@ -216,7 +338,7 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
           )}
         </div>
       </div>
-      
+
       <style jsx>{`
         .enhanced-project-card {
           width: 380px;
@@ -224,8 +346,7 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
           border-radius: 20px;
           overflow: hidden;
           margin: 20px;
-          box-shadow: 
-            0 10px 30px rgba(0, 0, 0, 0.3),
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3),
             0 0 0 1px rgba(144, 103, 198, 0.1);
           transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
           position: relative;
@@ -234,8 +355,7 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
 
         .enhanced-project-card:hover {
           transform: translateY(-10px) scale(1.02);
-          box-shadow: 
-            0 20px 40px rgba(144, 103, 198, 0.15),
+          box-shadow: 0 20px 40px rgba(144, 103, 198, 0.15),
             0 0 0 1px rgba(144, 103, 198, 0.3),
             0 0 30px rgba(144, 103, 198, 0.1);
         }
@@ -264,8 +384,8 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
           right: 0;
           bottom: 0;
           background: linear-gradient(
-            135deg, 
-            rgba(144, 103, 198, 0.8) 0%, 
+            135deg,
+            rgba(144, 103, 198, 0.8) 0%,
             rgba(67, 31, 71, 0.9) 100%
           );
           display: flex;
