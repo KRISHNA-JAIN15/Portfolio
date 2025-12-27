@@ -15,6 +15,10 @@ import SpotLight from "../images/SpotLight.png";
 import Opulence from "../images/Opulence.png";
 import NewsNet from "../images/NewsNet.png";
 import NextBlog from "../images/NextBlog.png";
+import ELearn from "../images/ELearn.png";
+import SportsBroadcaster from "../images/SportsBroadcaster.png";
+import QueueBuster from "../images/QueueBuster.png";
+import TicketWar from "../images/TicketWar.png";
 
 const Projects = () => {
   return (
@@ -38,6 +42,13 @@ const Projects = () => {
         <ProjectBox projectPhoto={Opulence} projectName="Opulence" />
         <ProjectBox projectPhoto={NewsNet} projectName="NewsNet" />
         <ProjectBox projectPhoto={NextBlog} projectName="NextBlog" />
+        <ProjectBox projectPhoto={ELearn} projectName="ELearn" />
+        <ProjectBox
+          projectPhoto={SportsBroadcaster}
+          projectName="SportsBroadcaster"
+        />
+        <ProjectBox projectPhoto={QueueBuster} projectName="QueueBuster" />
+        <ProjectBox projectPhoto={TicketWar} projectName="TicketWar" />
       </div>
 
       {/* Coming Soon Section */}

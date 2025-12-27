@@ -112,6 +112,27 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
       "A modern blogging platform built with Next.js, Prisma, and Tailwind CSS. Features user authentication, blog creation and management, responsive design, and a clean, intuitive interface for creating, sharing, and discovering thought-provoking content.",
     NextBlogGithub: "https://github.com/KRISHNA-JAIN15/NextBlog",
     NextBlogLive: "https://next-blog-pied-tau.vercel.app/",
+
+    ELearnDesc:
+      "E-Learning Platform with Node.js + Express REST API, MongoDB, Mongoose, JWT authentication, and Cloudinary media storage. Features role-based users (admin, instructor, student), Razorpay payment integration for course purchases, instructors can upload course videos and PDFs, enhanced admin dashboard with comprehensive statistics and analytics.",
+    ELearnGithub: "https://github.com/KRISHNA-JAIN15/ELearn",
+    ELearnLive: "https://elearn-red.vercel.app/",
+
+    SportsBroadcasterDesc:
+      "Enterprise-grade live sports streaming platform with real-time broadcasting and sub-5 second latency using WebRTC to HLS pipeline. Features multi-role system (Admin, Broadcaster, Viewer), real-time score updates and commentary via WebSocket, Razorpay integration for pay-per-view matches, AWS S3 + CloudFront CDN integration for global distribution, and seamless mid-stream ad insertion.",
+    SportsBroadcasterGithub:
+      "https://github.com/KRISHNA-JAIN15/SportsBroadcaster",
+    SportsBroadcasterLive: "",
+
+    QueueBusterDesc:
+      "Digital token system for small clinics, salons, and businesses that eliminates crowded waiting rooms. Customers receive QR codes and can wait anywhere while tracking their position in queue. Features real-time queue management, SMS/email notifications, business dashboard for queue monitoring, and seamless check-in experience.",
+    QueueBusterGithub: "https://github.com/KRISHNA-JAIN15/QueueBuster",
+    QueueBusterLive: "https://queue-buster-ten.vercel.app/",
+
+    TicketWarDesc:
+      "High-performance, scalable ticket booking platform designed for flash sales handling thousands of concurrent users. Uses distributed locking with Redis to prevent overselling, event streaming with Kafka for async processing, Nginx load balancing for traffic distribution, and Docker containers for horizontal scaling. Built to handle scenarios like Taylor Swift ticket sales without crashes.",
+    TicketWarGithub: "https://github.com/KRISHNA-JAIN15/TicketWar",
+    TicketWarLive: "",
   };
 
   const techStacks = {
@@ -250,6 +271,55 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
       "TypeScript",
       "Server Components",
       "App Router",
+    ],
+
+    ELearn: [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+      "Cloudinary",
+      "Razorpay",
+      "REST API",
+      "Role-Based Access",
+      "Admin Dashboard",
+    ],
+
+    SportsBroadcaster: [
+      "WebRTC",
+      "HLS",
+      "Node.js",
+      "Socket.IO",
+      "Redis",
+      "AWS S3",
+      "CloudFront",
+      "Razorpay",
+      "Real-time Streaming",
+      "Low Latency",
+    ],
+
+    QueueBuster: [
+      "Node.js",
+      "React",
+      "MongoDB",
+      "QR Code",
+      "Real-time Updates",
+      "SMS/Email Notifications",
+      "Queue Management",
+      "Business Dashboard",
+    ],
+
+    TicketWar: [
+      "Redis",
+      "Kafka",
+      "Nginx",
+      "Docker",
+      "Distributed Locking",
+      "Load Balancing",
+      "Event Streaming",
+      "Horizontal Scaling",
+      "Flash Sales",
     ],
   };
 
