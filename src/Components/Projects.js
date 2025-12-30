@@ -19,6 +19,7 @@ import ELearn from "../images/ELearn.png";
 import SportsBroadcaster from "../images/SportsBroadcaster.png";
 import QueueBuster from "../images/QueueBuster.png";
 import TicketWar from "../images/TicketWar.png";
+import LegalEagle from "../images/LegalEagle.png";
 
 const Projects = () => {
   return (
@@ -49,6 +50,7 @@ const Projects = () => {
         />
         <ProjectBox projectPhoto={QueueBuster} projectName="QueueBuster" />
         <ProjectBox projectPhoto={TicketWar} projectName="TicketWar" />
+        <ProjectBox projectPhoto={LegalEagle} projectName="LegalEagle" />
       </div>
 
       {/* Coming Soon Section */}

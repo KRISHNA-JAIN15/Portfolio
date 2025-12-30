@@ -133,6 +133,11 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
       "High-performance, scalable ticket booking platform designed for flash sales handling thousands of concurrent users. Uses distributed locking with Redis to prevent overselling, event streaming with Kafka for async processing, Nginx load balancing for traffic distribution, and Docker containers for horizontal scaling. Built to handle scenarios like Taylor Swift ticket sales without crashes.",
     TicketWarGithub: "https://github.com/KRISHNA-JAIN15/TicketWar",
     TicketWarLive: "",
+
+    LegalEagleDesc:
+      "Full-stack AI-powered legal document analysis platform with RAG architecture. Upload legal PDFs, ask natural language questions, and get context-aware answers powered by Google Gemini 2.5 Flash. Features 8 specialized AI personas (Contract Reviewer, Compliance Checker, etc.), multi-chat sessions with document isolation, smart chunking with Cohere embeddings, Pinecone vector search, source citations with page numbers, and Razorpay premium subscription (₹499 for unlimited queries).",
+    LegalEagleGithub: "https://github.com/KRISHNA-JAIN15/LegalEagle",
+    LegalEagleLive: "https://legal-eagle.vercel.app/",
   };
 
   const techStacks = {
@@ -320,6 +325,23 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
       "Event Streaming",
       "Horizontal Scaling",
       "Flash Sales",
+    ],
+
+    LegalEagle: [
+      "FastAPI",
+      "LangChain",
+      "Google Gemini 2.5 Flash",
+      "Cohere Embeddings",
+      "Pinecone Vector DB",
+      "MongoDB",
+      "Razorpay",
+      "PyPDF",
+      "React 19",
+      "Vite",
+      "React Router",
+      "Supabase Auth",
+      "RAG Architecture",
+      "Semantic Search",
     ],
   };
 
