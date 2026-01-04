@@ -20,6 +20,8 @@ import SportsBroadcaster from "../images/SportsBroadcaster.png";
 import QueueBuster from "../images/QueueBuster.png";
 import TicketWar from "../images/TicketWar.png";
 import LegalEagle from "../images/LegalEagle.png";
+import Envy from "../images/Envy.png";
+import S3Vault from "../images/S3Vault.png";
 
 const Projects = () => {
   return (
@@ -51,6 +53,8 @@ const Projects = () => {
         <ProjectBox projectPhoto={QueueBuster} projectName="QueueBuster" />
         <ProjectBox projectPhoto={TicketWar} projectName="TicketWar" />
         <ProjectBox projectPhoto={LegalEagle} projectName="LegalEagle" />
+        <ProjectBox projectPhoto={Envy} projectName="Envy" />
+        <ProjectBox projectPhoto={S3Vault} projectName="S3Vault" />
       </div>
 
       {/* Coming Soon Section */}

@@ -138,6 +138,16 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
       "Full-stack AI-powered legal document analysis platform with RAG architecture. Upload legal PDFs, ask natural language questions, and get context-aware answers powered by Google Gemini 2.5 Flash. Features 8 specialized AI personas (Contract Reviewer, Compliance Checker, etc.), multi-chat sessions with document isolation, smart chunking with Cohere embeddings, Pinecone vector search, source citations with page numbers, and Razorpay premium subscription (₹499 for unlimited queries).",
     LegalEagleGithub: "https://github.com/KRISHNA-JAIN15/LegalEagle",
     LegalEagleLive: "https://legal-eagle.vercel.app/",
+
+    EnvyDesc:
+      "Git for your .env files - Secure environment variable management with encryption, profiles, and team collaboration. Features AES-256 encryption with Fernet, system keyring integration (Windows Credential Manager, macOS Keychain), process injection that never writes to disk, age encryption for team collaboration, multiple environment profiles (dev, staging, prod), drift detection to compare profiles and prevent 'works on my machine' errors, secret rotation with expiration dates, and automatic staleness detection with health checks.",
+    EnvyGithub: "https://github.com/KRISHNA-JAIN15/ENVY",
+    EnvyLive: "https://envy-pink.vercel.app/",
+
+    S3VaultDesc:
+      "A modern, multi-user cloud storage platform built with Next.js that allows users to manage their own AWS S3 buckets securely. Each user connects their own AWS credentials to access their personal S3 storage. Features secure user authentication with Clerk, personal S3 access where each user manages their own credentials, comprehensive file management (upload, download, delete files and folders), bucket management (create and delete S3 buckets), secure credential storage in MongoDB, responsive design for desktop and mobile, and modern UI with Tailwind CSS and Lucide React icons.",
+    S3VaultGithub: "https://github.com/KRISHNA-JAIN15/S3Vault",
+    S3VaultLive: "https://s3-vault-iota.vercel.app/",
   };
 
   const techStacks = {
@@ -342,6 +352,32 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
       "Supabase Auth",
       "RAG Architecture",
       "Semantic Search",
+    ],
+
+    Envy: [
+      "Python",
+      "Fernet",
+      "AES-256 Encryption",
+      "System Keyring",
+      "Age Encryption",
+      "CLI Tool",
+      "Cryptography",
+      "Environment Variables",
+      "Secret Management",
+      "Drift Detection",
+    ],
+
+    S3Vault: [
+      "Next.js 16",
+      "MongoDB",
+      "Mongoose",
+      "Clerk Auth",
+      "AWS S3",
+      "Tailwind CSS",
+      "Lucide React",
+      "App Router",
+      "Cloud Storage",
+      "File Management",
     ],
   };
 
