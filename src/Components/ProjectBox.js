@@ -148,6 +148,11 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
       "A modern, multi-user cloud storage platform built with Next.js that allows users to manage their own AWS S3 buckets securely. Each user connects their own AWS credentials to access their personal S3 storage. Features secure user authentication with Clerk, personal S3 access where each user manages their own credentials, comprehensive file management (upload, download, delete files and folders), bucket management (create and delete S3 buckets), secure credential storage in MongoDB, responsive design for desktop and mobile, and modern UI with Tailwind CSS and Lucide React icons.",
     S3VaultGithub: "https://github.com/KRISHNA-JAIN15/S3Vault",
     S3VaultLive: "https://s3-vault-iota.vercel.app/",
+
+    MockNetDesc:
+      "The API Simulation Cloud for Modern Development. Transform API schemas into instant, live mock servers without writing backend code. Features AI-powered schema generation with Gemini 2.5, dynamic CRUD operations with Redis-backed virtual database, powerful rule engine for conditional responses, real-time data generation using Faker.js, workflow engine for multi-step operations, OpenAPI/Swagger support, authentication simulation with JWT, and analytics dashboard. Built with MERN stack, React 19, Clerk authentication, and deployed with sub-second response times.",
+    MockNetGithub: "https://github.com/KRISHNA-JAIN15/MockNet",
+    MockNetLive: "https://mock-net-z177.vercel.app/",
   };
 
   const techStacks = {
@@ -378,6 +383,24 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
       "App Router",
       "Cloud Storage",
       "File Management",
+    ],
+
+    MockNet: [
+      "React 19",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Redis",
+      "Clerk Auth",
+      "Gemini AI 2.5",
+      "Faker.js",
+      "OpenAPI",
+      "Swagger",
+      "Vite 7",
+      "React Router 7",
+      "Upstash",
+      "AJV Validation",
+      "WebSockets",
     ],
   };
 
